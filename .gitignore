@@ -205,3 +205,8 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+models/.locks
+models/models--google-t5--t5-small
+models/ontotransformer-finetuned
+models/ontotransformer-retrained
