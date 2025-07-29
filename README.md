@@ -6,7 +6,7 @@
 
 ---
 
-# 🧠 OntoGen: Semantic Product Categorization via Machine Translation {#english-version}
+# 🧠 OntoGen: Semantic Product Categorization via Machine Translation
 
 This project is inspired by the paper **"Don't Classify, Translate: Multi-Level E-Commerce Product Categorization via Machine Translation"** to implement a product categorization system based on neural machine translation models such as T5.
 
