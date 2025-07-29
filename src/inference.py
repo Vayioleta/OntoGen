@@ -1,7 +1,7 @@
 import os
 from transformers import T5Tokenizer, T5ForConditionalGeneration
 
-MODEL_DIR = os.path.abspath("/../models/ontotransformer-retrained")
+MODEL_DIR = os.path.abspath("models/ontotransformer-retrained")
 
 print("📥 Cargando modelo y tokenizer...")
 tokenizer = T5Tokenizer.from_pretrained(MODEL_DIR)
