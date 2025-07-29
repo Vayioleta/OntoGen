@@ -1,8 +1,52 @@
 # 🧠 OntoGen
 
-Un sistema de clasificación semántica basado en modelos T5 para convertir descripciones de productos en categorías estructuradas.
+Este proyecto se inspira en el paper "Don't Classify, Translate: Multi-Level E-Commerce Product Categorization via Machine Translation" para implementar un sistema de clasificación de productos basado en modelos de traducción automática como T5.
 
 ---
+
+## 🧭 Índice
+
+- [ℹ️ Más información](/docs/model.md)
+
+# 🧠 OntoGen: Clasificación Semántica de Productos via Traducción Automática
+
+Este proyecto se inspira en el paper **"Don't Classify, Translate: Multi-Level E-Commerce Product Categorization via Machine Translation"** para implementar un sistema de clasificación de productos basado en modelos de traducción automática como T5.
+
+---
+
+## 📑 Resultados del Paper
+
+| Modelo                 | Dataset RDC    | Dataset Ichiba |
+| ---------------------- | -------------- | -------------- |
+| DBN+KNN (Clasificador) | 73.85 (F1)     | 82.05 (F1)     |
+| Transformer (NMT)      | 73.83 (F1)     | **84.74 (F1)** |
+| Seq2Seq+Transformer    | **74.19 (F1)** | **84.26 (F1)** |
+
+* El modelo basado en traducción automática fue **consistentemente superior o igual**.
+* Con menos datos de entrenamiento, **degrada menos su rendimiento**.
+* **Crea nuevas rutas** que enriquecen la taxonomía original.
+
+---
+
+## 🔍 Ejemplo de Traducción de Producto
+
+**Input:** "Epson WorkForce Pro Inkjet Printer"
+
+**Salida esperada:**
+
+```
+Electrónica → Impresión → Impresoras
+```
+
+**Salida alternativa generada:**
+
+```
+Oficina → Impresión → Impresoras
+```
+
+Ambas son válidas, mostrando la **capacidad del modelo para comprender el contexto** del producto.
+
+
 
 ## 🚀 Instalación
 
