@@ -1,7 +1,7 @@
 <!-- Language toggle -->
 
 <p align="right">
-  <a href="/README.md"> English</a> | <a href="/docs/Readme_es.md"> Español</a> | <a href="/docs/Readme_jp.md"> Japan </a>
+  <a href="/README.md"> English</a> | <a href="/docs/Readme_es.md"> Español</a> | <a href="/docs/Readme_jp.md"> 日本語  </a>
 </p>
 
 # 🧠 OntoGen
